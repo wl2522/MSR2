@@ -1,0 +1,72 @@
+Race,Gender,Education,Age,Population (in thousands)
+no bachelors,female,black,18 - 24,3587.691601
+bachelors,female,black,25 - 34,1600.622288
+no bachelors,female,black,25 - 34,4424.824564
+bachelors,female,black,35 - 44,2227.377693
+no bachelors,female,black,35 - 44,2052.48413
+bachelors,female,hispanic,18 - 24,716.9475469
+no bachelors,female,hispanic,18 - 24,3963.91721
+bachelors,female,hispanic,25 - 34,1473.727153
+no bachelors,female,hispanic,25 - 34,2172.816295
+bachelors,female,hispanic,35 - 44,820.3177004
+no bachelors,female,hispanic,35 - 44,3023.625614
+no bachelors,female,hispanic,> 54,7204.649947
+bachelors,female,other,18 - 24,523.4952499
+no bachelors,female,other,18 - 24,482.3904341
+bachelors,female,other,25 - 34,430.4299066
+no bachelors,female,other,25 - 34,396.632576
+bachelors,female,other,35 - 44,299.4866371
+no bachelors,female,other,35 - 44,275.9709642
+bachelors,female,other,45 - 54,2835.640848
+no bachelors,female,other,45 - 54,870.9954993
+bachelors,female,other,> 54,7611.864375
+no bachelors,female,other,> 54,3507.090619
+bachelors,female,white,18 - 24,1459.052664
+no bachelors,female,white,18 - 24,3764.56622
+bachelors,female,white,25 - 34,1199.666858
+no bachelors,female,white,25 - 34,10391.40943
+bachelors,female,white,35 - 44,3338.840424
+no bachelors,female,white,35 - 44,8307.022157
+bachelors,female,white,45 - 54,5268.878541
+no bachelors,female,white,45 - 54,12623.43293
+bachelors,female,white,> 54,10607.65212
+no bachelors,female,white,> 54,19549.47981
+bachelors,male,black,18 - 24,966.2369267
+no bachelors,male,black,18 - 24,2088.908294
+bachelors,male,black,25 - 34,424.3338147
+no bachelors,male,black,25 - 34,1957.050824
+bachelors,male,black,35 - 44,540.0322665
+no bachelors,male,black,35 - 44,2451.74189
+bachelors,male,black,45 - 54,214.9677023
+no bachelors,male,black,45 - 54,2974.328496
+no bachelors,male,black,> 54,5097.399882
+bachelors,male,hispanic,18 - 24,677.3964375
+no bachelors,male,hispanic,18 - 24,5125.623428
+bachelors,male,hispanic,25 - 34,1784.91759
+no bachelors,male,hispanic,25 - 34,4759.20467
+bachelors,male,hispanic,35 - 44,851.8468168
+no bachelors,male,hispanic,35 - 44,2087.155999
+bachelors,male,hispanic,45 - 54,452.1200289
+no bachelors,male,hispanic,45 - 54,1563.901775
+bachelors,male,hispanic,> 54,1239.748244
+no bachelors,male,hispanic,> 54,1072.085042
+bachelors,male,other,18 - 24,57.00922381
+no bachelors,male,other,18 - 24,139.6813854
+bachelors,male,other,25 - 34,125.1812094
+no bachelors,male,other,25 - 34,202.0699109
+bachelors,male,other,35 - 44,127.4503985
+no bachelors,male,other,35 - 44,96.43728729
+bachelors,male,other,45 - 54,88.78360017
+no bachelors,male,other,45 - 54,87.74460704
+bachelors,male,other,> 54,139.1151596
+no bachelors,male,other,> 54,210.5272132
+bachelors,male,white,18 - 24,1099.511473
+no bachelors,male,white,18 - 24,4667.631638
+bachelors,male,white,25 - 34,2809.383744
+no bachelors,male,white,25 - 34,9641.853809
+bachelors,male,white,35 - 44,4273.705522
+no bachelors,male,white,35 - 44,9130.629021
+bachelors,male,white,45 - 54,5470.559817
+no bachelors,male,white,45 - 54,9807.596157
+bachelors,male,white,> 54,15000.70003
+no bachelors,male,white,> 54,18983.42867
