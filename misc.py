@@ -44,11 +44,23 @@ def preprocess(data):
     index.loc[index['What is your political party affiliation?'].isin(democrat),
               'What is your political party affiliation?'] = 'Democrat'
     
+    #Impute "Unknown" for missing US Census Division values
+    
+    index.loc[index['US Census Division'].isnull(), 'US Census Division'] = 'Unknown'
+    
     return index
 
 def filter(data, party=None, gender=None, age=None, race=None, education=None):
     """
     Filter a survey dataframe based on demographics, ignoring columns that have been dropped.
+
+    Suggested Demographics
+    ----------------------
+    Party: Democratic, Independent, Republican
+    Gender: Male, Female
+    Age: 18-24, 25-34, 35-44, 45-54, >54
+    Race: White, Black, Hispanic, Other Race
+    Education: No Bachelor, Bachelors
     """
     results = data
     
@@ -80,43 +92,3 @@ def filter(data, party=None, gender=None, age=None, race=None, education=None):
         results = results[results.iloc[:, edu_col].str.contains(education)]
         
     return results
-    
-def filter(data, party=None, gender=None, age=None, race=None, education=None):
-    """
-    Filter a survey dataframe based on demographics.
-
-    Suggested Demographics
-    ----------------------
-    Party: Democratic, Independent, Republican
-    Gender: Male, Female
-    Age: 18-24, 25-34, 35-44, 45-54, >54
-    Race: White, Black, Hispanic, Other Race
-    Education: No Bachelor, Bachelors
-    """
-    results = data
-    
-    for index, col in enumerate(index1.columns):
-        if col == 'What is your political party affiliation?':
-            party_col = index
-        elif col == 'Gender':
-            gender_col = index
-        elif col == 'Age':
-            age_col = index
-        elif col == 'Race':
-            race_col = index
-        elif col == 'Education':
-            edu_col = index
-    
-    if party != None:
-        results = results[results.iloc[:, party_col].str.find(party) > -1]
-    if gender != None:
-        results = results[results.iloc[:, gender_col].str.startswith(gender)]
-    if age != None:
-        results = results[results.iloc[:, age_col].str.startswith(age)]
-    if race != None:
-        results = results[results.iloc[:, race_col].str.startswith(race)]
-    if education !=None:
-        results = results[results.iloc[:, edu_col].str.contains(education)]
-        
-    return results
-    
