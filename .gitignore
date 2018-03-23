@@ -1,5 +1,1 @@
-*.csv
-*.xls
-*.xlsx
-
-*.ipynb_checkpoints/*
+.ipynb_checkpoints/
