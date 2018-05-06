@@ -1,5 +1,6 @@
 # Predicting the 2018 United States House of Representatives Elections and Voting Patterns with Polling Data
 
+
 This repository contains all of the relevant model and visualization code used in group MSR2's Microsoft Research capstone project.
 
 ## Abstract
@@ -8,7 +9,7 @@ Nationwide surveys are widely-adopted for gathering household information, evalu
 
 ## Contents
 
-* [baseline](): the Python code for our baseline prediction model and our predicted outcomes for the 2018 Midterm Elections
-* [demographics](): supplementary data that was used to either augment our model or impute missing data
-* [psychometric](): a collection of models that incorporate various psychometric variables and models without pychometric variables that were used as a baseline comparison
-* 
+* [baseline](): Python code for our baseline prediction model and our predicted outcomes 2018 Midterm Elections
+* [demographics](): supplementary data that was used to augment our model or impute missing data
+* [psychometric](): a collection of models that incorporate various psychometric variables along with the models without pychometric variables that were used as a baseline comparison
+* [authoritarianism](): Python code for our prediction model that includes identification with authoritarianism as an additional variable and updated predictions for the 2018 Midterm Elections produced by this model
