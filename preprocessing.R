@@ -186,7 +186,7 @@ plot_polling <- voting_df %>% filter(
 )
 saveRDS(plot_polling, file='data/plot_polling.RDS')
 
-voting_df <- voting_df %>% filter(
+voting_mrp <- voting_df %>% filter(
   Area != "Unknown",
   Age != "14 - 17",
   Education != "",
@@ -198,6 +198,7 @@ voting_df <- voting_df %>% filter(
                                 "male"="male",
                                 "female"="female",
                                 .default = NA_character_),
+  female = as.numeric(gender) - 1.5,
   age = dplyr::recode_factor(factor(Age),
                              "18 - 24"="18 - 24",
                              "25 - 34"="25 - 34",
@@ -232,14 +233,14 @@ voting_df <- voting_df %>% filter(
                                  .default = NA_character_),
   state = as.character(Area),
   zip = as.character(Postal.Code),
-  party = as.character(dplyr::recode_factor(What.is.your.political.party.affiliation.,
-                                     "Lean Democrat/Independent"="democratic",
-                                     "Weak Democrat"="democratic",
-                                     "Strong Democrat"="democratic",
-                                     "Lean Republican/Independent"="republican",
-                                     "Weak Republican"="republican",
-                                     "Strong Republican"="republican",
-                                     "Independent"="independent")),
+  # party = as.character(dplyr::recode_factor(What.is.your.political.party.affiliation.,
+  #                                    "Lean Democrat/Independent"="democratic",
+  #                                    "Weak Democrat"="democratic",
+  #                                    "Strong Democrat"="democratic",
+  #                                    "Lean Republican/Independent"="republican",
+  #                                    "Weak Republican"="republican",
+  #                                    "Strong Republican"="republican",
+  #                                    "Independent"="independent")),
   opinion = as.character(dplyr::recode_factor(How.do.you.feel.about.the.job.Donald.Trump.is.doing.as.president.,
                                        "Approve Strongly"="approve",
                                        "Approve Weakly"="approve",
@@ -251,10 +252,26 @@ voting_df <- voting_df %>% filter(
                                     "Will vote Republican"="republican",
                                     "Will vote other/not sure"="other/not sure",
                                     "Won't vote"="won't vote",
-                                    "Won't Vote"="won't vote"))
+                                    "Won't Vote"="won't vote")),
+  month = as.numeric(dplyr::recode_factor(month,
+                                          "10"="1",
+                                          "11"="2",
+                                          "01"="3",
+                                          "02"="4",
+                                          "03"="5")) / 2. - 1.5,
+  month_2 = month ^ 2
 ) %>% select(
-  gender, age, race, edu, marstat, state, zip, party, opinion, vote
+  month, month_2, gender, female, age, race, edu, marstat, state, opinion
 )
+
+voting_mrp <- voting_mrp %>% dplyr::group_by(month, month_2, gender, female, age, race, edu, marstat, state) %>%
+  dplyr::summarise(n(), sum(opinion=="approve"), sum(opinion=="disapprove"))
+colnames(voting_mrp)[10] <- "N"
+colnames(voting_mrp)[11] <- "Approve"
+colnames(voting_mrp)[12] <- "Disapprove"
+
+saveRDS(voting_mrp, file='data/voting_mrp.RDS')
+
 
 district <- read.csv("data/zccd_hud.csv")
 district$zip <- as.character(district$zip)

@@ -9,8 +9,10 @@ Nationwide surveys are widely-adopted for gathering household information, evalu
 
 ## Contents
 
+* [visualization](https://gitlab.com/wl2522/MSR2/tree/master/plots): exploratory data analysis [code](https://gitlab.com/wl2522/MSR2/blob/master/graphs.R)
 * [baseline](https://gitlab.com/wl2522/MSR2/tree/master/baseline): Python code for our baseline prediction model and our predicted outcomes 2018 Midterm Elections
 * [demographics](https://gitlab.com/wl2522/MSR2/tree/master/demographics): supplementary data that was used to augment our model or impute missing data
 * [psychometric](https://gitlab.com/wl2522/MSR2/tree/master/psychometric): a collection of models that incorporate various psychometric variables along with the models without pychometric variables that were used as a baseline comparison
 * [authoritarianism](https://gitlab.com/wl2522/MSR2/tree/master/psychometric/authoritarianism): Python code for our prediction model that includes identification with authoritarianism as an additional variable and updated predictions for the 2018 Midterm Elections produced by this model
 * [turnout adjustment](https://gitlab.com/wl2522/MSR2/tree/master/turnout_adjustment): Python code that modifies post stratification space by adjusting demographic group turnout along with post-adjustment updated predictions 
+* [dynamic model](https://gitlab.com/wl2522/MSR2/blob/master/dynamic): an experimental dynamic model of Trump's approval rate
