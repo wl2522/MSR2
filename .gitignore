@@ -5,5 +5,4 @@ demographics/pops.csv
 .ipynb_checkpoints/*
 */.ipynb_checkpoints/*
 */*/.ipynb_checkpoints/*
-data/*
 __pycache__/*

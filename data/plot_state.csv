@@ -1,0 +1,103 @@
+Num,Prop,Type,Var,Cat
+430,0.016846229,Poll,State,Alabama
+13,5.09E-04,Poll,State,Alaska
+559,0.021900098,Poll,State,Arizona
+195,0.007639569,Poll,State,Arkansas
+2336,0.091518119,Poll,State,California
+272,0.010656219,Poll,State,Colorado
+190,0.007443683,Poll,State,Connecticut
+50,0.001958864,Poll,State,Delaware
+126,0.004936337,Poll,State,District of Columbia
+1678,0.065739471,Poll,State,Florida
+850,0.033300686,Poll,State,Georgia
+43,0.001684623,Poll,State,Hawaii
+92,0.00360431,Poll,State,Idaho
+1328,0.052027424,Poll,State,Illinois
+553,0.021665034,Poll,State,Indiana
+240,0.009402547,Poll,State,Iowa
+174,0.006816846,Poll,State,Kansas
+645,0.025269344,Poll,State,Kentucky
+271,0.010617042,Poll,State,Louisiana
+159,0.006229187,Poll,State,Maine
+423,0.016571988,Poll,State,Maryland
+448,0.01755142,Poll,State,Massachusetts
+1353,0.053006856,Poll,State,Michigan
+342,0.013398629,Poll,State,Minnesota
+198,0.007757101,Poll,State,Mississippi
+516,0.020215475,Poll,State,Missouri
+46,0.001802155,Poll,State,Montana
+191,0.00748286,Poll,State,Nebraska
+192,0.007522037,Poll,State,Nevada
+71,0.002781587,Poll,State,New Hampshire
+420,0.016454456,Poll,State,New Jersey
+100,0.003917728,Poll,State,New Mexico
+1347,0.052771792,Poll,State,New York
+805,0.031537708,Poll,State,North Carolina
+40,0.001567091,Poll,State,North Dakota
+1399,0.054809011,Poll,State,Ohio
+354,0.013868756,Poll,State,Oklahoma
+314,0.012301665,Poll,State,Oregon
+1192,0.046699314,Poll,State,Pennsylvania
+88,0.0034476,Poll,State,Rhode Island
+305,0.01194907,Poll,State,South Carolina
+52,0.002037218,Poll,State,South Dakota
+659,0.025817826,Poll,State,Tennessee
+2251,0.088188051,Poll,State,Texas
+190,0.007443683,Poll,State,Utah
+48,0.001880509,Poll,State,Vermont
+603,0.023623898,Poll,State,Virginia
+564,0.022095984,Poll,State,Washington
+345,0.013516161,Poll,State,West Virginia
+427,0.016728697,Poll,State,Wisconsin
+38,0.001488737,Poll,State,Wyoming
+2047802,0.015894353,2016 Election,State,Alabama
+279841,0.002172032,2016 Election,State,Alaska
+2413568,0.018733306,2016 Election,State,Arizona
+1065366,0.008269014,2016 Election,State,Arkansas
+13237598,0.102745798,2016 Election,State,California
+2541354,0.019725138,2016 Election,State,Colorado
+1570787,0.012191922,2016 Election,State,Connecticut
+420730,0.003265565,2016 Election,State,Delaware
+295553,0.002293983,2016 Election,State,District of Columbia
+9122861,0.070808588,2016 Election,State,Florida
+3967067,0.030791044,2016 Election,State,Georgia
+395738,0.003071586,2016 Election,State,Hawaii
+598820,0.00464784,2016 Election,State,Idaho
+5236744,0.040645851,2016 Election,State,Illinois
+2590412,0.020105909,2016 Election,State,Indiana
+1454652,0.011290521,2016 Election,State,Iowa
+1098023,0.008522486,2016 Election,State,Kansas
+1831825,0.014218012,2016 Election,State,Kentucky
+1958792,0.015203487,2016 Election,State,Louisiana
+693328,0.005381379,2016 Election,State,Maine
+2621097,0.020344076,2016 Election,State,Maryland
+3086089,0.023953188,2016 Election,State,Massachusetts
+4548382,0.035303016,2016 Election,State,Michigan
+2690667,0.020884055,2016 Election,State,Minnesota
+1185845,0.009204131,2016 Election,State,Mississippi
+2665579,0.020689331,2016 Election,State,Missouri
+456949,0.003546685,2016 Election,State,Montana
+780455,0.00605763,2016 Election,State,Nebraska
+1051318,0.008159978,2016 Election,State,Nevada
+694316,0.005389048,2016 Election,State,New Hampshire
+3750211,0.02910788,2016 Election,State,New Jersey
+704900,0.005471197,2016 Election,State,New Mexico
+7375658,0.057247385,2016 Election,State,New York
+4551947,0.035330687,2016 Election,State,North Carolina
+310552,0.002410401,2016 Election,State,North Dakota
+5235169,0.040633627,2016 Election,State,Ohio
+1369511,0.010629685,2016 Election,State,Oklahoma
+1784509,0.013850761,2016 Election,State,Oregon
+5897174,0.045771887,2016 Election,State,Pennsylvania
+433068,0.003361329,2016 Election,State,Rhode Island
+2010762,0.015606861,2016 Election,State,South Carolina
+345179,0.002679164,2016 Election,State,South Dakota
+2393620,0.018578476,2016 Election,State,Tennessee
+8562915,0.066462475,2016 Election,State,Texas
+825907,0.006410413,2016 Election,State,Utah
+273942,0.002126246,2016 Election,State,Vermont
+3750916,0.029113352,2016 Election,State,Virginia
+2964465,0.023009183,2016 Election,State,Washington
+678165,0.005263689,2016 Election,State,West Virginia
+2787820,0.021638124,2016 Election,State,Wisconsin
+230392,0.001788225,2016 Election,State,Wyoming

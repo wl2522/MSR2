@@ -1,0 +1,22 @@
+﻿Num,Prop,Type,Var,Cat,Label
+14905,0.094577274,Election,Age,1,18 - 24
+24682,0.15661565,Election,Age,2,25 - 34
+23948,0.151958172,Election,Age,3,35 - 44
+28001,0.177675829,Election,Age,4,45 - 54
+66060,0.419173075,Election,Age,5,> 54
+73761,0.468038529,Election,Gender,1,Male
+83835,0.531961471,Election,Gender,2,Female
+114151,0.72432676,Election,Race,1,White
+19984,0.126805249,Election,Race,2,Black
+15267,0.096874286,Election,Race,3,Hispanic
+8194,0.051993705,Election,Race,4,Other
+89252,0.566334171,Election,Marital Status,1,Married
+68344,0.433665829,Election,Marital Status,2,Unmarried
+9295,0.058979923,Election,Education,1,Lower than Middle School
+40983,0.260051017,Election,Education,2,High School
+48845,0.309938069,Election,Education,3,Some College
+37270,0.236490774,Election,Education,4,Bachelors
+21203,0.134540217,Election,Education,5,Postgraduate
+29209,0.296318464,Election,Income,1,<50k
+34356,0.348533574,Election,Income,2,50k-100k
+35008,0.355147961,Election,Income,3,>100k
