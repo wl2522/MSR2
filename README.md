@@ -13,3 +13,4 @@ Nationwide surveys are widely-adopted for gathering household information, evalu
 * [demographics](): supplementary data that was used to augment our model or impute missing data
 * [psychometric](): a collection of models that incorporate various psychometric variables along with the models without pychometric variables that were used as a baseline comparison
 * [authoritarianism](): Python code for our prediction model that includes identification with authoritarianism as an additional variable and updated predictions for the 2018 Midterm Elections produced by this model
+* [turnout adjustment](): Python code that modifies post stratification space by adjusting demographic group turnout along with post-adjustment updated predictions 
