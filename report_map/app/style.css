@@ -1,0 +1,284 @@
+body {
+  background-color: white;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#mapDiv {
+  height: 645px;
+}
+
+#district-boundaries, #state-boundaries {
+  fill: none;
+  stroke: #fff;
+  stroke: none;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+h1 {
+  text-align: center;
+  color: #212121;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+text.legendTitle, text.label {
+  fill: #282828;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+#container {
+  width: 100%;
+  height: 170px;
+  margin-bottom: -20px;
+  position: relative;
+}
+#left {
+  width: 50%;
+  height: 130px;
+  background: none;
+  position: relative;
+  float: left;
+}
+#right {
+  margin-left: 50%;
+  height: 130px;
+  background: none;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+div.slider {
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+input[type=range] {
+  height: 20px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 38%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 35%;
+  height: 4px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #363636;
+  background: #EDEDED;
+  border-radius: 10px;
+  border: 1px solid #BABABA;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #C9C9C9;
+  border: 1px solid #C2C2C2;
+  height: 24px;
+  width: 13px;
+  border-radius: 6px;
+  background: rgba(247, 247, 247, 0.80);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -10px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #EDEDED;
+}
+input[type=range]::-moz-range-track {
+  width: 40%;
+  height: 6px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #363636;
+  background: #EDEDED;
+  border-radius: 10px;
+  border: 1px solid #BABABA;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #C9C9C9;
+  border: 1px solid #C2C2C2;
+  height: 24px;
+  width: 13px;
+  border-radius: 6px;
+  background: #F7F7F7;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 40%;
+  height: 6px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #EDEDED;
+  border: 1px solid #BABABA;
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px #363636;
+}
+input[type=range]::-ms-fill-upper {
+  background: #EDEDED;
+  border: 1px solid #BABABA;
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px #363636;
+}
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #C9C9C9;
+  border: 1px solid #C2C2C2;
+  height: 24px;
+  width: 13px;
+  border-radius: 6px;
+  background: #F7F7F7;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #EDEDED;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #EDEDED;
+}
+
+input {
+  background-color: transparent; 
+}
+
+div.subheading p, div.description p {
+  text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+}
+
+div.description, div.subheading {
+  margin: auto;
+  width: 60%;
+  color: #282828;
+}
+
+div.header {
+  margin: auto;
+  width: 50%;
+  color: #282828;
+}
+
+div.header {
+  padding: 10px;
+}
+
+label {
+  color: #282828;
+  padding-left: 1px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div.percent div.demPercent {
+  float: right;
+  font-weight: bold;
+}
+
+div.percent div.repPercent {
+  float: left;
+  font-weight: bold;
+}
+
+div.party div.rep {
+  float: left;
+  color: grey;
+}
+
+div.party div.dem {
+  float: right;
+  color: grey;
+}
+
+div.districtName {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+svg {
+  overflow: visible;
+  text-align: center;
+  display: block;
+  margin: auto;
+  z-index: -1;
+}
+
+svg#map {
+  padding-top: 90px;
+}
+
+svg.square, rect {
+  overflow: hidden;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+path {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+#state-boundaries path {
+  pointer-events: none;
+}
+
+#district-boundaries path {
+  pointer-events: none;
+}
+
+.districts {
+  fill: #bbb;
+}
+
+.districts :hover {
+  fill: "#bbb";
+}
+
+#district-boundaries path {
+  pointer-events: none;
+  fill: none;
+  stroke: #fff;
+  stroke: none;
+  stroke-width: 0px;
+}
+
+#state-boundaries path {
+  pointer-events: none;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0px;
+  stroke: none;
+}
+
+div.tooltip {   
+  position: absolute;               
+  width: 150px;                  
+  height: 50px 0 0 0;                 
+  padding: 8px;             
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px; 
+  color: #282828;
+  background: rgba(255, 255, 255, 0.95);   
+  border-width: 1px;   
+  border-style: solid;
+  border-color: #e0e0e0;   
+  border-radius: 5px;           
+  pointer-events: none;   
+  box-shadow: 2px 2px 5px rgb(128,128,128,0.6);      
+}
