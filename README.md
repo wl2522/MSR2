@@ -15,5 +15,5 @@ Nationwide surveys are widely adopted for gathering household information, evalu
 * [plots](https://gitlab.com/wl2522/MSR2/tree/master/plots): exploratory data analysis [code](https://gitlab.com/wl2522/MSR2/blob/master/graphs.R)
 * [psychometric](https://gitlab.com/wl2522/MSR2/tree/master/psychometric): a collection of models that incorporate various psychometric variables along with the models without pychometric variables that were used as a baseline comparison
 * [authoritarianism](https://gitlab.com/wl2522/MSR2/tree/master/psychometric/authoritarianism): Python code for our prediction model that includes identification with authoritarianism as an additional variable and updated predictions for the 2018 Midterm Elections produced by this model
-* [interactive map](https://gitlab.com/wl2522/MSR2/tree/master/report_map): the HTML, CSS, and JavaSciprt (D3.js) code for the interactive map of our prediction results
+* [interactive map](https://gitlab.com/wl2522/MSR2/tree/master/report_map): the HTML, CSS, and JavaScript (D3.js) code for the interactive map of our predictions
 * [turnout adjustment](https://gitlab.com/wl2522/MSR2/tree/master/turnout_adjustment): Python code that modifies the poststratification space by adjusting voter turnout for specific demographic groups along with updated predictions produced by those adjustments
