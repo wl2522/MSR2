@@ -1,7 +1,7 @@
 # Predicting the 2018 United States House of Representatives Elections and Voting Patterns with Polling Data
 
 
-This repository contains all of the relevant model and visualization code used in group MSR2's Microsoft Research capstone project.
+This repository contains the relevant model and visualization code for Team MSR2's Columbia University Spring 2018 Data Science Capstone Project with industry partner Microsoft Research.
 
 ## Abstract
 
@@ -9,10 +9,11 @@ Nationwide surveys are widely adopted for gathering household information, evalu
 
 ## Contents
 
-* [plots](https://gitlab.com/wl2522/MSR2/tree/master/plots): exploratory data analysis [code](https://gitlab.com/wl2522/MSR2/blob/master/graphs.R)
 * [baseline](https://gitlab.com/wl2522/MSR2/tree/master/baseline): Python code for our baseline prediction model and our predicted outcomes for the 2018 Midterm Elections
 * [demographics](https://gitlab.com/wl2522/MSR2/tree/master/demographics): supplementary data that was used to augment our model or impute missing data
+* [dynamic model](https://gitlab.com/wl2522/MSR2/blob/master/dynamic): an experimental dynamic model of Trump's approval rate
+* [plots](https://gitlab.com/wl2522/MSR2/tree/master/plots): exploratory data analysis [code](https://gitlab.com/wl2522/MSR2/blob/master/graphs.R)
 * [psychometric](https://gitlab.com/wl2522/MSR2/tree/master/psychometric): a collection of models that incorporate various psychometric variables along with the models without pychometric variables that were used as a baseline comparison
 * [authoritarianism](https://gitlab.com/wl2522/MSR2/tree/master/psychometric/authoritarianism): Python code for our prediction model that includes identification with authoritarianism as an additional variable and updated predictions for the 2018 Midterm Elections produced by this model
+* [interactive map](https://gitlab.com/wl2522/MSR2/tree/master/report_map): the HTML, CSS, and JavaScript (D3.js) code for the interactive map of our predictions
 * [turnout adjustment](https://gitlab.com/wl2522/MSR2/tree/master/turnout_adjustment): Python code that modifies the poststratification space by adjusting voter turnout for specific demographic groups along with updated predictions produced by those adjustments
-* [dynamic model](https://gitlab.com/wl2522/MSR2/blob/master/dynamic): an experimental dynamic model of Trump's approval rate
